@@ -16,7 +16,7 @@ function show(shown, hidden1, hidden2, hidden3, hidden4, hidden5) {
 
 // creating div by 9
 
-const myArray = ["!", "+", "#", "$", "%", "^"];
+const myArray = ["!", "+", "#", "$", "%", "^", '*', '&'];
 console.log(myArray.length);
 function randomSymbol(){
    return Math.floor(Math.random() * myArray.length )
@@ -35,9 +35,9 @@ function listNumbersWithSymbol(divisor, symbol) {
       output += " " + myArray[randomSymbol()];
 
     }
-    outputHtml += '<p>' + output + '</p>'; // Append each output to the HTML content
+    outputHtml += '<p class= display-1>' + output + '</p>'; // Append each output to the HTML content
   }
-  document.getElementById('numberContainer').innerHTML = outputHtml; // Set the generated HTML content to the numberContainer <div>
+  document.getElementById('numberContainer').innerHTML = outputHtml; // Set the HTML content to the numberContainer <div>
   document.getElementById('symboldiv').innerHTML = symbol;
 }
 

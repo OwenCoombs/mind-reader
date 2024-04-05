@@ -25,19 +25,6 @@ h1 {
   height: 100%;
 }
 
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  align-items: center;
-}
-
 
 
 #page1 {
@@ -67,13 +54,13 @@ h6{
   right: 20px;
 }
 p{
-  color: aqua;
+  color: grey;
   font-style:oblique;
   text-shadow: 
-  -1px -1px 0 #000,  
-   1px -1px 0 #000,
-  -1px  1px 0 #000,
-   1px  1px 0 #000;
+  -1px -1px 0 white,  
+   1px -1px 0 white,
+  -1px  1px 0 white,
+   1px  1px 0 white;
    text-align: center;
 }
 
@@ -88,3 +75,12 @@ p{
   right: 20px; /* Adjust as needed */
   z-index: 1000; /* Adjust as needed */
 }
+.btn.btn-lg {
+  background-color: #8BD8E2;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

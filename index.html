@@ -10,32 +10,34 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>  
 <body class="d-flex flex-column justify-content-between">
+ 
   <!-- page 1 -->
   <div class="ratio ratio-16x9">
   <div id="page1">
-    <div class="container-fluid">
-    <h1>I can read<br> your mind</h1>
-  </div>
+    <div class="container-fluid ">      
+    <h1 class="display-1">I can read<br> your mind</h1>
+    </div>
     <div class="row justify-content-center p-1">
-      <div class="col-6 d-flex">
+      <div class="col-xl-6 d-flex">
         <div class="container">
-        <a href="#" onclick="return show('page2', 'page3', 'page4', 'page1');">
-          <button type="button"  class="btn btn-info btn-lg bottom-right">Start</button>
+        <a href="#" onclick="return show('page2', 'page3', 'page4', 'page1');"> <!--Call function show on click-->
+          <button type="button"  class="btn  btn-lg bottom-right">Start</button>
         </a>
         </div>
       </div>
     </div>
   </div>
 
+ 
   <!-- Next Page -->
   <div id="page2" style="display:none">
     <div class="container ">
-    <h1>Pick a <br>number from <br>01-99</h1>
+    <h1 class="display-1">Pick a <br>number from <br>01-99</h1>
     </div>
     <div class="row justify-content-center p-4">
-      <div class="col-6">
+      <div class=" text-center">
         <a href="#" onclick="return show('page3', 'page4', 'page1', 'page2');">
-          <button type="button" class="btn btn-info btn-lg">NEXT</button>
+          <button type="button" class="btn btn-lg ">NEXT</button>
         </a>
       </div>
     </div>
@@ -45,15 +47,16 @@
     </blockquote>
 </div>
 
-  <!-- Next Page -->
+  
+<!-- Next Page -->
   <div id="page3" style="display:none">
-    <h1>Add both digits<br>
+    <h1 class="display-1">Add both digits<br>
       together to get<br>
       a new number</h1>
     <div class="row justify-content-center p-4">
-      <div class="col-6">
-        <a href="#" onclick="return show('page4','page5','page6', 'page1', 'page2', 'page3',);">
-          <button type="button" class="btn btn-info btn-lg">NEXT</button>
+      <div class="col-6 text-center">
+        <a href="#" onclick="return show('page4','page5','page6', 'page1', 'page2', 'page3',);"> <!--Call function show on click-->
+          <button type="button" class="btn  btn-lg">NEXT</button>
         </a>
       </div>
     </div>
@@ -69,13 +72,13 @@
 
   <!-- Next Page -->
   <div id="page4" style="display:none">
-    <h1>subtract your new<br>
+    <h1 class="display-1">subtract your new<br>
       number from the<br>
       original number</h1>
     <div class="row justify-content-center p-4">
-      <div class="col-6">
+      <div class="col-6 text-center">
         <a href="#" onclick="return show('page5','page4','page1', 'page2', 'page3', 'page6');">
-          <button type="button" class="btn btn-info btn-lg justify-content-center">NEXT</button>
+          <button type="button" class="btn  btn-lg justify-content-center">NEXT</button>
           </a>
         </div>
      </div>
@@ -99,9 +102,9 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-6 text-center">
           <a href="#" onclick="return show('page6', 'page1', 'page2', 'page3', 'page4', 'page5');">
-            <button type="button" class="btn btn-info btn-lg">REVEAL</button>
+            <button type="button" class="btn btn-lg">REVEAL</button>
           </a>
         </div>
       </div>
@@ -122,12 +125,13 @@
       </div>
     </div>
   </div>
-    <!-- Next Page -->
+    
+  <!-- Next Page -->
   <div id="page6" style="display:none">
     <div class="row justify-content-center p-4">
-      <div class="col-6">
+      <div class="col-6 text-center">
         <a href="#" onclick="return show('page1','page2', 'page3', 'page4', 'page5', 'page6');">
-          <button type="button" class="btn btn-info btn-lg justify-content-center bottom-right">RESTART</button>
+          <button type="button" class="btn btn-lg justify-content-center bottom-right">RESTART</button>
           </a>
         </div>
         <div class="containerSymbol">
@@ -137,7 +141,7 @@
      <div class="container justify-content-center p-5">
     <figure class="text-center">
       <blockquote class="blockquote">
-          <p>Your symbol is:</p>
+          <p class="display-1">Your symbol is:</p>
       </blockquote>
       </figure>
     <figure class="text-center p-5">

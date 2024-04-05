@@ -3,9 +3,10 @@
 - figure out how to make that first page hidden 
 - create a button to take you to the next page in java 
 - create vars for randomizing numbers and symbols
--
+- list outputs to pages
 
 
 
 # Links
 - https://stackoverflow.com/questions/6242976/javascript-hide-show-element
+- Reese
